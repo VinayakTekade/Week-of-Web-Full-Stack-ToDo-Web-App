@@ -5,41 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ToDo List</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="container">
       <h1>Things To Do</h1>
 
-      <form action="" method="post">
+      <form action="" method="post" class="task-adder">
         <input
           type="text"
           name="task"
           id="input-task"
           placeholder="Add a Task"
         />
-        <input type="submit" value="Add" />
+        <input type="submit" value="Add" id="submit" />
       </form>
 
       <ul>
         <li>
-          <div>Read an article</div>
-          <div>&cross;</div>
+          <span class="task-text">Read an article</span>
+          <span class="task-delete">&cross;</span>
         </li>
         <li>
-          <div>Go on a Run</div>
-          <div>&cross;</div>
+          <span class="task-text">Go on a Run</span>
+          <span class="task-delete">&cross;</span>
         </li>
         <li>
-          <div>Attend Classes</div>
-          <div>&cross;</div>
+          <span class="task-text">Attend Classes</span>
+          <span class="task-delete">&cross;</span>
         </li>
         <li>
-          <div>Review Pull Requests</div>
-          <div>&cross;</div>
+          <span class="task-text">Review Pull Requests</span>
+          <span class="task-delete">&cross;</span>
         </li>
         <li>
-          <div>Play Valorant</div>
-          <div>&cross;</div>
+          <span class="task-text">Play Valorant</span>
+          <span class="task-delete">&cross;</span>
         </li>
       </ul>
     </div>
