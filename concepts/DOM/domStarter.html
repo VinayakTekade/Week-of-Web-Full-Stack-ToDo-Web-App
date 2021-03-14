@@ -9,7 +9,9 @@
   </head>
   <body>
     <div class="container">
-      <h1>Things To Do</h1>
+      <h1 id="header-title">
+        Things To Do<span style="display: none">, Get things done!</span>
+      </h1>
 
       <form action="" method="post" class="task-adder">
         <input
@@ -22,27 +24,29 @@
       </form>
 
       <ul>
-        <li>
+        <li class="task">
           <span class="task-text">Read an article</span>
           <span class="task-delete">&cross;</span>
         </li>
-        <li>
+        <li class="task">
           <span class="task-text">Go on a Run</span>
           <span class="task-delete">&cross;</span>
         </li>
-        <li>
+        <li class="task">
           <span class="task-text">Attend Classes</span>
           <span class="task-delete">&cross;</span>
         </li>
-        <li>
+        <li class="task">
           <span class="task-text">Review Pull Requests</span>
           <span class="task-delete">&cross;</span>
         </li>
-        <li>
+        <li class="task">
           <span class="task-text">Play Valorant</span>
           <span class="task-delete">&cross;</span>
         </li>
       </ul>
+      <input type="button" value="Button" id="button" />
     </div>
+    <script src="./dom.js"></script>
   </body>
 </html>
