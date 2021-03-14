@@ -1,0 +1,49 @@
+.container {
+  width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  margin: 20px;
+  list-style-type: none;
+}
+
+li {
+  margin: 5px 0px;
+  padding: 5px 20px;
+}
+
+.task-text {
+  display: inline-block;
+  width: 90%;
+  text-align: left;
+}
+
+.task-delete {
+  display: inline-block;
+  width: 5%;
+}
+
+.task-adder {
+  height: 30px;
+  margin: 5px 0px;
+  padding: 5px 40px;
+}
+
+#input-task {
+  height: 100%;
+  width: 80%;
+  margin-right: 1%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+#submit {
+  width: 15%;
+  height: 120%;
+  background: none;
+}
