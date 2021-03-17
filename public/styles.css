@@ -1,12 +1,13 @@
 body {
-  background: url(./background.jpg) no-repeat center center fixed;
+  transition: 0.5s;
+  background: url(./img/background1.jpg) no-repeat center center fixed;
   background-size: cover;
   color: white;
   font-family: cursive;
 }
 
 .container {
-  width: 600px;
+  max-width: 600px;
   margin: 20px auto;
   padding: 20px;
   text-align: center;
@@ -68,4 +69,35 @@ li {
   border: none;
   color: white;
   font-family: cursive;
+}
+
+#background-selector {
+  position: absolute;
+  top: 90%;
+  left: 90%;
+}
+
+.background {
+  display: inline-block;
+  border: 2px solid grey;
+  margin: 2px;
+  width: 20px;
+  height: 20px;
+}
+
+#bg1 {
+  background-color: #0f4721;
+  cursor: pointer;
+}
+#bg2 {
+  background-color: #c7b18a;
+  cursor: pointer;
+}
+#bg3 {
+  background-color: #f42628;
+  cursor: pointer;
+}
+#bg4 {
+  background-color: #b3c3d3;
+  cursor: pointer;
 }
