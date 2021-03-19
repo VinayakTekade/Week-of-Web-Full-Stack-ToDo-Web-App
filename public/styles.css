@@ -101,3 +101,11 @@ li {
   background-color: #b3c3d3;
   cursor: pointer;
 }
+
+.delete-submit {
+  background: none;
+  border: none;
+  color: white;
+  font-family: cursive;
+  cursor: pointer;
+}

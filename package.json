@@ -1,0 +1,28 @@
+{
+  "name": "Week-of-Web-Full-Stack-ToDo-Web-App",
+  "version": "1.0.0",
+  "description": "This repository contains all the files used for hands on tutorial of a Full stack ToDo list during DSC's Week of Web in collaboration with Coder's Capsule.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VinayakTekade/Week-of-Web-Full-Stack-ToDo-Web-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VinayakTekade/Week-of-Web-Full-Stack-ToDo-Web-App/issues"
+  },
+  "homepage": "https://github.com/VinayakTekade/Week-of-Web-Full-Stack-ToDo-Web-App#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

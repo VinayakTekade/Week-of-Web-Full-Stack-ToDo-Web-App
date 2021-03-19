@@ -11,7 +11,7 @@
     <div class="container">
       <h1>Things To Do</h1>
 
-      <form action="" method="post" class="task-adder">
+      <form action="/create" method="post" class="task-adder">
         <input
           type="text"
           name="task"
@@ -22,26 +22,17 @@
       </form>
 
       <ul>
+        <% tasklist.forEach(element => { %>
         <li>
-          <span class="task-text">Read an article</span>
-          <span class="task-delete">&cross;</span>
+          <span class="task-text"><%= element.text %> </span>
+          <form action="/delete" method="post" style="display: inline-block">
+            <input type="hidden" name="deleteid" value="<%= element.id %>" />
+            <span
+              ><input type="submit" class="delete-submit" value="&cross;"
+            /></span>
+          </form>
         </li>
-        <li>
-          <span class="task-text">Go on a Run</span>
-          <span class="task-delete">&cross;</span>
-        </li>
-        <li>
-          <span class="task-text">Attend Classes</span>
-          <span class="task-delete">&cross;</span>
-        </li>
-        <li>
-          <span class="task-text">Review Pull Requests</span>
-          <span class="task-delete">&cross;</span>
-        </li>
-        <li>
-          <span class="task-text">Play Valorant</span>
-          <span class="task-delete">&cross;</span>
-        </li>
+        <% }); %>
       </ul>
     </div>
     <div id="background-selector">
