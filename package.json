@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/VinayakTekade/Week-of-Web-Full-Stack-ToDo-Web-App#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "firebase-admin": "^9.5.0"
