@@ -1,5 +1,5 @@
 {
-  "name": "Week-of-Web-Full-Stack-ToDo-Web-App",
+  "name": "week-of-web-full-stack-todo-web-app",
   "version": "1.0.0",
   "description": "This repository contains all the files used for hands on tutorial of a Full stack ToDo list during DSC's Week of Web in collaboration with Coder's Capsule.",
   "main": "index.js",
